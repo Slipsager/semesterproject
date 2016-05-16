@@ -34,6 +34,6 @@
     <?php if ($content): ?>
         <?php print $content; ?>
     <?php else: ?>
-        Hov hov
+        Der mangler en footer her.
     <?php endif; ?>
 </p>

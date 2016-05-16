@@ -81,8 +81,72 @@
  */
 ?>
 
-VIGAN SHEMSIU
+
+<div class="content-main contact-content">
+  <div class="contact-content-upper">
+    <div class="row">
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <div class="gallery_title">
+          <h3>ARTIKEL</h3>
+          <h4>CATEGORY</h4>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="row">
+      <div class="col-sm-12 col-md-6 contact_left">
+        <form class="form-horizontal" method="post" action="#">
+
+          <div class="form-group">
+            <input type="text" class="form-control" id="name" name="name" placeholder="NAME..." value="">
+          </div>
+
+          <div class="form-group">
+            <input type="email" class="form-control" id="email" name="email" placeholder="EMAIL..." value="">
+          </div>
+
+          <div class="form-group">
+            <input type="text" class="form-control" id="subject" name="subject" placeholder="SUBJECT..." value="">
+          </div>
+
+          <div class="form-group">
+            <textarea class="form-control" rows="4" name="message" placeholder="MESSAGE..."></textarea>
+          </div>
+
+          <div class="form-group">
+            <input id="submit" name="submit" type="submit" value="Send" class="btn view_more btn-submit">
+          </div>
+
+        </form>
+      </div> <!-- .contact-left -->
+
+      <div class="col-sm-12 col-md-6 contact_right">
+
+        <div class="col-md-12 contact_title">
+          <?php print $user_picture; ?>
+        </div>
+
+        <div class="col-md-12 contact_sub_title">
+          Vigan Shemsiu
+        </div>
+
+        <div class="col-md-12 contact_text">
+          Du er velkommen til at kontakte leverandøren af denne artikel for at stille uddybende spørgsmål.
+        </div>
+      </div> <!-- .contact_right -->
+
+    </div> <!-- .row -->
+  </div>
+</div> <!-- .contact-content -->
+
+
+
+
+
+
 <div id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> clearfix"<?php print $attributes; ?>>
+
   <?php print $user_picture; ?>
 
   <?php print render($title_prefix); ?>

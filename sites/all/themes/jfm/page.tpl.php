@@ -8,7 +8,7 @@
 
                         <div class="menu-container">
                             <div class="block-keep-ratio block-keep-ratio-2-1 block-width-full home">
-                                <a href="index.html" class="block-keep-ratio__content  main-menu-link">
+                                <a href="<?php print $front_page; ?>" class="block-keep-ratio__content  main-menu-link">
                                         <span class="main-menu-link-text">
                                         </span>
                                 </a>
@@ -127,63 +127,14 @@
                                 </div>
                             </div>
                         </div>
+
+                        <?php print render($page['blog_content_frontpage']); ?>
                     <?php endif; ?>
 
+                    <?php if (!drupal_is_front_page()) : ?>
                     <?php print render($page['content']); ?>
-
-                    <div class="row margin-b-30">
-                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                            <div class="box london">
-                                <div class="box-icon">
-                                    <img src="../images/home-img-2.jpg" alt="Image" class="img-responsive">
-                                </div>
-                                <div class="info float-container">
-                                    <div class="col-sm-12 london-title">
-                                        <h3 class="text-uppercase">Sådan bruger danskerne facebook</h3>
-                                        <h4 class="text-uppercase">Sociale medier</h4>
-                                    </div>
-                                    <p>Næsten alle har adgang til internettet, som vi især går på via den bærbare
-                                        computer, fremgår det af rapport.</p>
-                                    <hr/>
-                                    <div class="col-sm-12 location-main">
-                                        <div class="pull-left location">
-                                            - Hans Jensen
-                                        </div>
-                                        <div class="pull-right user-icons">
-                                            CEO Carlsberg
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                            <div class="box box-seo">
-                                <div class="box-icon">
-                                    <img src="../images/home-img-3.jpg" alt="Image" class="img-responsive">
-                                </div>
-                                <div class="info float-container">
-                                    <div class="col-sm-12 london-title paris-title">
-                                        <h3 class="text-uppercase">Er din virksomhed på Google?</h3>
-                                        <h4 class="text-uppercase">SEO, Google AdWords</h4>
-                                    </div>
-                                    <p>Sean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec
-                                        sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit
-                                        amet mauris. Morbi accumsan ipsum velit. </p>
-                                    <hr/>
-                                    <div class="col-sm-12 location-main">
-                                        <div class="pull-left location">
-                                            - Hans Jensen
-                                        </div>
-                                        <div class="pull-right user-icons">
-                                            CEO Carlsberg
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div> <!-- row -->
-
+                    <?php endif; ?>
+                    
                     <div class="row margin-t-30">
                         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                             <div class="box bottom-main">

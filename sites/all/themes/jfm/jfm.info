@@ -5,6 +5,7 @@ engine = phptemplate
 
 regions[header] = Header
 regions[highlighted] = Highlighted
+regions[blog_content_frontpage] = Frontpage Blog Content
 regions[sidebar_first] = Sidebar First - Left
 regions[sidebar_second] = Sidebar Second - Left
 regions[content] = Content

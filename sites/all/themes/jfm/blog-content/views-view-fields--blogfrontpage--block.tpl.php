@@ -29,30 +29,37 @@
 $cat = strtolower(strip_tags($fields['field_blog_category']->content));
 $body = substr($fields['body']->content, 0, 200) . "...";
 $author = "Af " . $fields['name']->content;
+
+$catClass = "";
+
+switch ($cat) {
+    case "seo":
+        $catClass = "box-seo";
+        break;
+}
 ?>
 
-<?php if($cat == "seo") : ?>
-    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-        <div class="box box-seo">
-            <div class="box-icon">
-                <?php print $fields['field_blog_image']->content; ?>
+
+<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+    <div class="box <?php print $catClass; ?>">
+        <div class="box-icon">
+            <?php print $fields['field_blog_image']->content; ?>
+        </div>
+        <div class="info float-container">
+            <div class="col-sm-12 london-title paris-title">
+                <h3 class="text-uppercase"><?php print $fields['title']->content; ?></h3>
+                <h4 class="text-uppercase"><?php print $fields['field_blog_category']->content; ?></h4>
             </div>
-            <div class="info float-container">
-                <div class="col-sm-12 london-title paris-title">
-                    <h3 class="text-uppercase"><?php print $fields['title']->content; ?></h3>
-                    <h4 class="text-uppercase"><?php print $fields['field_blog_category']->content; ?></h4>
+            <p><?php print $body; ?></p>
+            <hr/>
+            <div class="col-sm-12 location-main">
+                <div class="pull-left location">
+                    <?php print $author; ?>
                 </div>
-                <p><?php print $body; ?></p>
-                <hr/>
-                <div class="col-sm-12 location-main">
-                    <div class="pull-left location">
-                        <?php print $author; ?>
-                    </div>
-                    <div class="pull-right user-icons">
-                        LÆS MERE
-                    </div>
+                <div class="pull-right user-icons">
+                    <?php print $fields['view_node']->content; ?>
                 </div>
             </div>
         </div>
     </div>
-<?php endif; ?>
+</div>

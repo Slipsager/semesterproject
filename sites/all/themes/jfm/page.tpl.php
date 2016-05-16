@@ -102,8 +102,8 @@
                 </aside> <!-- main-navigation -->
 
                 <div class="content-main">
-                    <?php print render($page['content']); ?>
 
+                    <?php if(drupal_is_front_page()) : ?>
                     <div class="row margin-b-30">
                         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                             <div class="banner-main-home">
@@ -121,10 +121,14 @@
                                         <button type="button" class="">LÆS MERE OM HVEM VI ER</button>
                                     </div>
                                 </div>
-                                <img src="../images/home-img-1.png" alt="Image" class="img-responsive">
+                                <img src="images/home-img-1.png" alt="Image" class="img-responsive">
                             </div>
                         </div>
                     </div>
+                    <?php endif; ?>
+
+                    <?php print render($page['content']); ?>
+
                     <div class="row margin-b-30">
                         <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                             <div class="box london">
@@ -194,6 +198,8 @@
                                         Mauris in erat justo." </p>
                                     <hr/>
                                 </div>
+
+                                <?php print render($page['testimonials']); ?>
                             </div>
                         </div>
                     </div> <!-- row -->
@@ -203,8 +209,8 @@
         <footer class="row">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 footer">
                 <p class="copyright"><?php if ($page['footer']): ?>
-                        <?php print render($page['footer']); ?>
-                    <?php endif; ?></div>
+                    <?php print render($page['footer']); ?>
+                <?php endif; ?></div>
         </footer>  <!-- .row -->
     </div> <!-- .container -->
 </div> <!-- .main-body -->

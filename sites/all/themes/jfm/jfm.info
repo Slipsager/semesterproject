@@ -8,6 +8,7 @@ regions[highlighted] = Highlighted
 regions[sidebar_first] = Sidebar First - Left
 regions[sidebar_second] = Sidebar Second - Left
 regions[content] = Content
+regions[testimonials] = Testimonial
 regions[footer] = Footer
 
 stylesheets[all][] = css/bootstrap.min.css

@@ -417,6 +417,10 @@ body {
     background-color: #fff;
 }
 
+.box-seo {
+    border-top: 7px solid rgba(160, 19, 238, 0.8);
+}
+
 .london {
     border-top: 7px solid #19beb6;
 }

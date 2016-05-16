@@ -158,8 +158,7 @@
                         </div>
 
                         <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-
-                            <div class="box paris">
+                            <div class="box box-seo">
                                 <div class="box-icon">
                                     <img src="../images/home-img-3.jpg" alt="Image" class="img-responsive">
                                 </div>

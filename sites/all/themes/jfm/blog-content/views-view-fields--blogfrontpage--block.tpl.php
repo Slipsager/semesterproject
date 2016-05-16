@@ -25,6 +25,12 @@
  */
 ?>
 
+<style>
+    .col-lg-6 {
+        width: 100%;
+    }
+</style>
+
 <?php
 $cat = strtolower(strip_tags($fields['field_blog_category']->content));
 $body = substr($fields['body']->content, 0, 200) . "...";
@@ -35,6 +41,9 @@ $catClass = "";
 switch ($cat) {
     case "seo":
         $catClass = "box-seo";
+        break;
+    case "sociale medier":
+        $catClass = "box-sociale-medier";
         break;
 }
 ?>

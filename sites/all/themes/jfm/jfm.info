@@ -4,7 +4,9 @@ core = 7.x
 engine = phptemplate
 
 regions[header] = Header
-regions[sidebar_first] = Left First
+regions[highlighted] = Highlighted
+regions[sidebar_first] = Sidebar First - Left
+regions[sidebar_second] = Sidebar Second - Left
 regions[content] = Content
 regions[footer] = Footer
 

@@ -11,4 +11,12 @@ regions[content] = Content
 regions[footer] = Footer
 
 stylesheets[all][] = css/style.css
+stylesheets[all][] = css/bootstrap.min.css
+stylesheets[all][] = css/magnific-popup.css
 stylesheets[print][] = css/print.css
+
+scripts[] = js/bootstrap.min.js
+scripts[] = js/imagesloaded.3.1.8.min.js
+scripts[] = js/jquery.magnific-popup.min.js
+scripts[] = js/jquery.masonry.3.2.1.min.js
+scripts[] = js/jquery-1.11.3.min.js

@@ -13,6 +13,7 @@ regions[footer] = Footer
 stylesheets[all][] = css/style.css
 stylesheets[all][] = css/bootstrap.min.css
 stylesheets[all][] = css/magnific-popup.css
+stylesheets[all][] = font-awesome/css/font-awesome.min.css
 stylesheets[print][] = css/print.css
 
 scripts[] = js/bootstrap.min.js

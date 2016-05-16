@@ -1,7 +1,5 @@
-
-    <link rel='stylesheet' type='text/css'
-          href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,400italic'>
-    <title>Marketips.dk | Vi sørger for at du bliver set</title>
+<link rel='stylesheet' type='text/css'
+      href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,400italic'>
 
 <div class="main-body">
     <div class="container">
@@ -21,7 +19,8 @@
                         </div>
 
                         <div class="menu-container">
-                            <div class="block-keep-ratio  block-keep-ratio-1-1  block-width-half  pull-left  about-main">
+                            <div
+                                class="block-keep-ratio  block-keep-ratio-1-1  block-width-half  pull-left  about-main">
                                 <a href="#"
                                    class="main-menu-link about block-keep-ratio__content flexbox-center">
                                     <i class="fa fa-user fa-4x main-menu-link-icon"></i>
@@ -29,7 +28,8 @@
                                 </a>
                             </div>
 
-                            <div class="block-keep-ratio  block-keep-ratio-1-1  block-width-half  pull-right  contact-main">
+                            <div
+                                class="block-keep-ratio  block-keep-ratio-1-1  block-width-half  pull-right  contact-main">
                                 <a href="#"
                                    class="main-menu-link contact block-keep-ratio__content flexbox-center">
                                     <i class="fa fa-star fa-4x main-menu-link-icon"></i>
@@ -42,7 +42,8 @@
 
 
                         <div class="menu-container">
-                            <div class="block-keep-ratio  block-keep-ratio-1-1  block-width-half  pull-left  about-main">
+                            <div
+                                class="block-keep-ratio  block-keep-ratio-1-1  block-width-half  pull-left  about-main">
                                 <a href="sub.html"
                                    class="main-menu-link facebook block-keep-ratio__content flexbox-center">
                                     <i class="fa fa-facebook-official fa-4x main-menu-link-icon"></i>
@@ -50,7 +51,8 @@
                                 </a>
                             </div>
 
-                            <div class="block-keep-ratio  block-keep-ratio-1-1  block-width-half  pull-right  contact-main">
+                            <div
+                                class="block-keep-ratio  block-keep-ratio-1-1  block-width-half  pull-right  contact-main">
                                 <a href="sub.html"
                                    class="main-menu-link google block-keep-ratio__content flexbox-center">
                                     <i class="fa fa-google fa-4x main-menu-link-icon"></i>
@@ -60,7 +62,8 @@
 
                         </div>
                         <div class="menu-container">
-                            <div class="block-keep-ratio  block-keep-ratio-1-1  block-width-half  pull-left  about-main">
+                            <div
+                                class="block-keep-ratio  block-keep-ratio-1-1  block-width-half  pull-left  about-main">
                                 <a href="sub.html"
                                    class="main-menu-link seo block-keep-ratio__content flexbox-center">
                                     <i class="fa fa-search-plus fa-4x main-menu-link-icon"></i>
@@ -68,7 +71,8 @@
                                 </a>
                             </div>
 
-                            <div class="block-keep-ratio  block-keep-ratio-1-1  block-width-half  pull-right  contact-main">
+                            <div
+                                class="block-keep-ratio  block-keep-ratio-1-1  block-width-half  pull-right  contact-main">
                                 <a href="sub.html"
                                    class="main-menu-link email-marketing block-keep-ratio__content flexbox-center">
                                     <i class="fa fa-envelope-o fa-4x main-menu-link-icon"></i>
@@ -77,7 +81,8 @@
                             </div>
                         </div>
                         <div class="menu-container">
-                            <div class="block-keep-ratio  block-keep-ratio-1-1  block-width-half  pull-left  about-main">
+                            <div
+                                class="block-keep-ratio  block-keep-ratio-1-1  block-width-half  pull-left  about-main">
                                 <a href="sub.html"
                                    class="main-menu-link affiliate block-keep-ratio__content flexbox-center">
                                     <i class="fa fa-line-chart fa-4x main-menu-link-icon"></i>
@@ -85,7 +90,8 @@
                                 </a>
                             </div>
 
-                            <div class="block-keep-ratio  block-keep-ratio-1-1  block-width-half  pull-right  contact-main">
+                            <div
+                                class="block-keep-ratio  block-keep-ratio-1-1  block-width-half  pull-right  contact-main">
                                 <a href="sub.html"
                                    class="main-menu-link bannerannoncering block-keep-ratio__content flexbox-center">
                                     <i class="fa fa-map-signs fa-4x main-menu-link-icon"></i>
@@ -100,8 +106,8 @@
                                 <h1>Vil du vide mere?</h1>
                                 <input type="email" class="form-control" placeholder="Email">
                                 <input type="tel" class="form-control" id="inputEmail3"
-                                       placeholder="Mobilnummer"><br />
-                                <input type="submit" class="form-control" value="Tilmeld!" />
+                                       placeholder="Mobilnummer"><br/>
+                                <input type="submit" class="form-control" value="Tilmeld!"/>
                             </div>
                         </div>
 
@@ -118,7 +124,10 @@
                                         <p class="text-uppercase">Vi sørger for at du bliver set</p>
                                     </div>
                                     <div class="desc">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vulputate velit a velit consectetur luctus. Etiam in malesuada turpis. Praesent at accumsan elit. Duis viverra neque eu odio lacinia semper. Sed id lectus lectus. Vivamus hendrerit vehicula ipsum in tincidunt.
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vulputate velit a
+                                        velit consectetur luctus. Etiam in malesuada turpis. Praesent at accumsan elit.
+                                        Duis viverra neque eu odio lacinia semper. Sed id lectus lectus. Vivamus
+                                        hendrerit vehicula ipsum in tincidunt.
                                         </p>
                                         <button type="button" class="">LÆS MERE OM HVEM VI ER</button>
                                     </div>
@@ -138,7 +147,8 @@
                                         <h3 class="text-uppercase">Sådan bruger danskerne facebook</h3>
                                         <h4 class="text-uppercase">Sociale medier</h4>
                                     </div>
-                                    <p>Næsten alle har adgang til internettet, som vi især går på via den bærbare computer, fremgår det af rapport.</p>
+                                    <p>Næsten alle har adgang til internettet, som vi især går på via den bærbare
+                                        computer, fremgår det af rapport.</p>
                                     <hr/>
                                     <div class="col-sm-12 location-main">
                                         <div class="pull-left location">
@@ -203,7 +213,9 @@
         </div> <!-- .row -->
         <footer class="row">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 footer">
-                <p class="copyright">Copyright © 2016 Marketips</div>
+                <p class="copyright"><?php if ($page['footer']): ?>
+                        <?php print render($page['footer']); ?>
+                    <?php endif; ?></div>
         </footer>  <!-- .row -->
     </div> <!-- .container -->
 </div> <!-- .main-body -->

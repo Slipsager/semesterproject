@@ -1,0 +1,12 @@
+name = Jynsk Fynske Medier
+description = Webdesign til JFM og Marketips.dk
+core = 7.x
+engine = phptemplate
+
+regions[header] = Header
+regions[sidebar_first] = Left First
+regions[content] = Content
+regions[footer] = Footer
+
+stylesheets[all][] = css/style.css
+stylesheets[print][] = css/print.css

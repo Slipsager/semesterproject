@@ -103,28 +103,30 @@
 
                 <div class="content-main">
 
-                    <?php if(drupal_is_front_page()) : ?>
-                    <div class="row margin-b-30">
-                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                            <div class="banner-main-home">
-                                <div class="banner-main-home-text">
-                                    <div class="heading">
-                                        <h1>Marketips</h1>
-                                        <p class="text-uppercase">Vi sørger for at du bliver set</p>
+                    <?php if (drupal_is_front_page()) : ?>
+                        <div class="row margin-b-30">
+                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                <div class="banner-main-home">
+                                    <div class="banner-main-home-text">
+                                        <div class="heading">
+                                            <h1>Marketips</h1>
+                                            <p class="text-uppercase">Vi sørger for at du bliver set</p>
+                                        </div>
+                                        <div class="desc">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vulputate
+                                            velit a
+                                            velit consectetur luctus. Etiam in malesuada turpis. Praesent at accumsan
+                                            elit.
+                                            Duis viverra neque eu odio lacinia semper. Sed id lectus lectus. Vivamus
+                                            hendrerit vehicula ipsum in tincidunt.
+                                            </p>
+                                            <button type="button" class="">LÆS MERE OM HVEM VI ER</button>
+                                        </div>
                                     </div>
-                                    <div class="desc">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vulputate velit a
-                                        velit consectetur luctus. Etiam in malesuada turpis. Praesent at accumsan elit.
-                                        Duis viverra neque eu odio lacinia semper. Sed id lectus lectus. Vivamus
-                                        hendrerit vehicula ipsum in tincidunt.
-                                        </p>
-                                        <button type="button" class="">LÆS MERE OM HVEM VI ER</button>
-                                    </div>
+                                    <img src="images/home-img-1.png" alt="Image" class="img-responsive">
                                 </div>
-                                <img src="images/home-img-1.png" alt="Image" class="img-responsive">
                             </div>
                         </div>
-                    </div>
                     <?php endif; ?>
 
                     <?php print render($page['content']); ?>
@@ -186,19 +188,6 @@
                     <div class="row margin-t-30">
                         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                             <div class="box bottom-main">
-                                <div class="info float-container">
-                                    <div class="col-sm-12 bottom-title">
-                                        <h3 class="text-uppercase">Anders Matthesen</h3>
-                                        <h4 class="text-uppercase">- Komiker</h4>
-                                    </div>
-                                    <p class="bottom-desc">"Duis sed odio sit amet nibh vulputate cursus a sit amet
-                                        mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a
-                                        ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent
-                                        taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
-                                        Mauris in erat justo." </p>
-                                    <hr/>
-                                </div>
-
                                 <?php print render($page['testimonials']); ?>
                             </div>
                         </div>
@@ -208,9 +197,10 @@
         </div> <!-- .row -->
         <footer class="row">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 footer">
-                <p class="copyright"><?php if ($page['footer']): ?>
+                <?php if ($page['footer']): ?>
                     <?php print render($page['footer']); ?>
-                <?php endif; ?></div>
+                <?php endif; ?>
+            </div>
         </footer>  <!-- .row -->
     </div> <!-- .container -->
 </div> <!-- .main-body -->

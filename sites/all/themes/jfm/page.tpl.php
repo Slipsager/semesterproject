@@ -100,21 +100,13 @@
                             </div>
                         </div>
 
-                        <div class="menu-container">
-                            <div class="block-keep-ratio block-keep-ratio-1-1 block-width-full">
-
-                                <h1>Vil du vide mere?</h1>
-                                <input type="email" class="form-control" placeholder="Email">
-                                <input type="tel" class="form-control" id="inputEmail3"
-                                       placeholder="Mobilnummer"><br/>
-                                <input type="submit" class="form-control" value="Tilmeld!"/>
-                            </div>
-                        </div>
 
                     </div> <!-- main-menu -->
                 </aside> <!-- main-navigation -->
 
                 <div class="content-main">
+                    <?php print render($page['content']); ?>
+
                     <div class="row margin-b-30">
                         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                             <div class="banner-main-home">

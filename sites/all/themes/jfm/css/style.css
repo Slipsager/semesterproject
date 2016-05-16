@@ -441,7 +441,7 @@ body {
 
 .info {
     width: 100%;
-    padding: 15px 30px 20px;
+    padding: 5px 30px 20px;
 }
 
 .info-ul {
@@ -542,19 +542,10 @@ body {
     border-left: 2px solid #75bd29;
     margin: 25px 0px;
 }
-.view-testimonials-block h3 {
-    color: #75bd29;
-    font-size: 20px;
-    margin: 2px 5px;
-}
-.view-testimonials-block h4 {
-    font-size: 16px;
-    margin: 0px 5px;
-}
 .bottom-title h3 {
     color: #75bd29;
     font-size: 20px;
-    margin: 2px 5px;
+    margin: 2px 5px 10px;
 }
 
 .bottom-title h4 {

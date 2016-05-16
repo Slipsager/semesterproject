@@ -83,95 +83,83 @@
 
 
 <div class="content-main contact-content">
-  <div class="contact-content-upper">
-    <div class="row">
-      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-        <div class="gallery_title">
-          <h3>ARTIKEL</h3>
-          <h4>CATEGORY</h4>
+    <div class="contact-content-upper">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <div class="gallery_title">
+                    <h3><a href="<?php print $node_url; ?>"><?php print $title; ?></a></h3>
+                </div>
+            </div>
         </div>
-      </div>
+
+        <div class="row">
+
+            <?php
+            hide($content['comments']);
+            hide($content['links']);
+            print render($content);
+            ?>
+
+        </div>
+
+        <br/><br/>
+        <hr/>
+        <div class="row">
+            <div class="col-xs-12">
+                <h2>Kom i direkte kontakt med skribenten</h2>
+            </div>
+            <div class="col-sm-12 col-md-6 contact_left">
+                <form class="form-horizontal" method="post" action="#">
+
+
+                    <div class="form-group">
+                        <input type="email" class="form-control" id="email" name="email" placeholder="Din e-mail"
+                               value="">
+                    </div>
+
+                    <div class="form-group">
+                        <textarea class="form-control" rows="4" name="message"
+                                  placeholder="Dit spørgsmål til "></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <input id="submit" name="submit" type="submit" value="Send" class="btn view_more btn-submit">
+                    </div>
+
+                </form>
+            </div> <!-- .contact-left -->
+
+            <div class="col-sm-12 col-md-6 contact_right">
+
+                <div class="col-md-12 contact_title">
+                    <?php print $user_picture; ?>
+                </div>
+
+                <div class="col-md-12 contact_sub_title">
+                    <?php if ($display_submitted): ?>
+                        <div class="submitted">
+                            <?php print $submitted; ?>
+                        </div>
+                    <?php endif; ?>
+                </div>
+
+                <div class="col-md-12 contact_text">
+                    <em class="text-success">Du er velkommen til at kontakte leverandøren af denne artikel for at stille
+                        uddybende spørgsmål.</em>
+                </div>
+            </div> <!-- .contact_right -->
+
+        </div> <!-- .row -->
     </div>
-
-
-    <div class="row">
-      <div class="col-sm-12 col-md-6 contact_left">
-        <form class="form-horizontal" method="post" action="#">
-
-          <div class="form-group">
-            <input type="text" class="form-control" id="name" name="name" placeholder="NAME..." value="">
-          </div>
-
-          <div class="form-group">
-            <input type="email" class="form-control" id="email" name="email" placeholder="EMAIL..." value="">
-          </div>
-
-          <div class="form-group">
-            <input type="text" class="form-control" id="subject" name="subject" placeholder="SUBJECT..." value="">
-          </div>
-
-          <div class="form-group">
-            <textarea class="form-control" rows="4" name="message" placeholder="MESSAGE..."></textarea>
-          </div>
-
-          <div class="form-group">
-            <input id="submit" name="submit" type="submit" value="Send" class="btn view_more btn-submit">
-          </div>
-
-        </form>
-      </div> <!-- .contact-left -->
-
-      <div class="col-sm-12 col-md-6 contact_right">
-
-        <div class="col-md-12 contact_title">
-          <?php print $user_picture; ?>
-        </div>
-
-        <div class="col-md-12 contact_sub_title">
-          Vigan Shemsiu
-        </div>
-
-        <div class="col-md-12 contact_text">
-          Du er velkommen til at kontakte leverandøren af denne artikel for at stille uddybende spørgsmål.
-        </div>
-      </div> <!-- .contact_right -->
-
-    </div> <!-- .row -->
-  </div>
 </div> <!-- .contact-content -->
+<br/><br/><br/>
+<br/><br/><br/>
+<div class="content-main contact-content">
+    <div class="contact-content-upper">
+        <?php print render($content['links']); ?>
 
-
-
-
-
-
-<div id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> clearfix"<?php print $attributes; ?>>
-
-  <?php print $user_picture; ?>
-
-  <?php print render($title_prefix); ?>
-  <?php if (!$page): ?>
-    <h2<?php print $title_attributes; ?>><a href="<?php print $node_url; ?>"><?php print $title; ?></a></h2>
-  <?php endif; ?>
-  <?php print render($title_suffix); ?>
-
-  <?php if ($display_submitted): ?>
-    <div class="submitted">
-      <?php print $submitted; ?>
+        <?php print render($content['comments']); ?>
     </div>
-  <?php endif; ?>
-
-  <div class="content"<?php print $content_attributes; ?>>
-    <?php
-      // We hide the comments and links now so that we can render them later.
-      hide($content['comments']);
-      hide($content['links']);
-      print render($content);
-    ?>
-  </div>
-
-  <?php print render($content['links']); ?>
-
-  <?php print render($content['comments']); ?>
-
 </div>
+
+

@@ -51,6 +51,7 @@
         <h2<?php print $title_attributes; ?>><?php print $block->subject ?></h2>
     <?php endif; ?>
     <?php print render($title_suffix); ?>
+    <p>Læs de nyeste successoplevelser direkte fra vores læsere, der flittigt har taget imod hjælp og vejledning via Marketips.dk</p>
 </div>
         <?php print $content ?>
 

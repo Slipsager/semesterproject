@@ -96,6 +96,9 @@
                                 </a>
                             </div>
                         </div>
+                        <div class="menu-container">
+                            <?php print render($page['sidebar_first']); ?>
+                        </div>
 
 
                     </div> <!-- main-menu -->

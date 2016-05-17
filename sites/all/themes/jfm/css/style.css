@@ -168,16 +168,15 @@ body {
 
 .home {
 
-    background-image: url("../images/marketips.png");
+    background-image: url("../images/marketips-logo.png");
     background-repeat: no-repeat;
     background-size: 99%;
 }
 
 .block-user {
-    margin-top: 20px;
+    margin-top: 40px;
     padding: 15px;
-    background-color: rgba(255, 255, 255, 0.8);
-    border-radius: 20px;
+    background-color: rgba(33, 238, 229, 0.4);
 }
 
 .about-main {
@@ -193,23 +192,27 @@ body {
 }
 
 .google {
-    background-color: rgba(15, 158, 89, 0.8)
+    background-color: rgba(15, 158, 89, 0.8);
 }
 
 .seo {
-    background-color: rgba(160, 19, 238, 0.8)
+    background-color: rgba(160, 19, 238, 0.8);
 }
 
 .email-marketing {
-    background-color: rgba(255, 89, 16, 0.8)
+    background-color: rgba(255, 89, 16, 0.8);
 }
 
 .affiliate {
-    background-color: rgba(30, 123, 128, 0.8)
+    background-color: rgba(30, 123, 128, 0.8);
 }
 
 .bannerannoncering {
-    background-color: rgba(29, 127, 238, 0.8)
+    background-color: rgba(29, 127, 238, 0.8);
+}
+.newsletter {
+    background-color: rgba(33, 174, 238, 0.5);
+    padding: 15px;
 }
 
 .cards {

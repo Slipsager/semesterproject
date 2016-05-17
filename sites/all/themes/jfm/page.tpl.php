@@ -96,12 +96,32 @@
                                 </a>
                             </div>
                         </div>
+
+                        <h1 class="focus text-center text-primary">Nyhedsbrev</h1>
+
                         <div class="menu-container">
-                            <?php print render($page['sidebar_first']); ?>
-                        </div>
+                            <div
+                                class="block-keep-ratio  block-keep-ratio-1-1  block-width-full  contact-main">
+                                <div class="newsletter block-keep-ratio__content">
+                                    <p>Nu har du muligheden for at være på forkant!</p>
+                                    <p>Tilmeld dig vores nyhedsbrev for at
+                                        modtage <strong>unikke</strong> tips og tricks målrettet <strong>din
+                                            virksomhed!</strong></p>
+                                    <br />
+                                    <form action="#">
+                                        <input type="email" placeholder="E-mail" class="form-control" /><br />
+                                        <input type="submit" value="Tilmeld" class="btn btn-primary btn-block" />
+                                    </form>
+
+                                </div>
+                            </div>
+
+                            <div class="menu-container">
+                                <?php print render($page['sidebar_first']); ?>
+                            </div>
 
 
-                    </div> <!-- main-menu -->
+                        </div> <!-- main-menu -->
                 </aside> <!-- main-navigation -->
 
                 <div class="content-main">
@@ -135,9 +155,9 @@
                     <?php endif; ?>
 
                     <?php if (!drupal_is_front_page()) : ?>
-                    <?php print render($page['content']); ?>
+                        <?php print render($page['content']); ?>
                     <?php endif; ?>
-                    
+
                     <div class="row margin-t-30">
                         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                             <div class="box bottom-main">

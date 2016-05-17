@@ -814,10 +814,29 @@ body {
 .gallery_main,
 .contact-content {
     background-color: #fff;
-    border-top: 5px solid #19beb6;
     width: auto;
     overflow: hidden;
 }
+
+.box-top-seo {
+    border-top: 5px solid rgba(160, 19, 238, 0.8);
+}
+.box-top-sociale-medier {
+    border-top: 5px solid rgba(59, 89, 152, 0.8);
+}
+.box-top-affiliate-marketing {
+    border-top: 5px solid rgba(30, 123, 128, 0.8);
+}
+.box-top-bannerannoncering {
+    border-top: 5px solid rgba(29, 127, 238, 0.8);
+}
+.box-top-email-marketing {
+    border-top: 5px solid rgba(255, 89, 16, 0.8);
+}
+.box-top-google-adwords {
+    border-top: 5px solid rgba(15, 158, 89, 0.8);
+}
+
 
 .gallery_main {
     padding: 30px 20px 30px 30px;
@@ -837,7 +856,6 @@ body {
 
 .gallery_title {
     width: auto;
-    border-left: 4px solid #19beb6;
     padding-left: 20px;
     margin-bottom: 40px;
 }
@@ -851,9 +869,46 @@ body {
 .gallery_title h4 {
     font-size: 25px;
     font-weight: bold;
-    color: #19beb6;
     margin-top: 0;
     text-transform: uppercase;
+}
+
+.box-color-seo {
+    color: rgba(160, 19, 238, 0.8);
+}
+.box-color-sociale-medier {
+    color: rgba(59, 89, 152, 0.8);
+}
+.box-color-affiliate-marketing {
+    color: rgba(30, 123, 128, 0.8);
+}
+.box-color-bannerannoncering {
+    color: rgba(29, 127, 238, 0.8);
+}
+.box-color-email-marketing {
+    color: rgba(255, 89, 16, 0.8);
+}
+.box-color-google-adwords {
+    color: rgba(15, 158, 89, 0.8);
+}
+
+.box-bg-color-seo {
+    background-color: rgba(160, 19, 238, 0.8);
+}
+.box-bg-color-sociale-medier {
+    background-color: rgba(59, 89, 152, 0.8);
+}
+.box-bg-color-affiliate-marketing {
+    background-color: rgba(30, 123, 128, 0.8);
+}
+.box-bg-color-bannerannoncering {
+    background-color: rgba(29, 127, 238, 0.8);
+}
+.box-bg-color-email-marketing {
+    background-color: rgba(255, 89, 16, 0.8);
+}
+.box-bg-color-google-adwords {
+    background-color: rgba(15, 158, 89, 0.8);
 }
 
 .view_more_main {
@@ -862,7 +917,6 @@ body {
 }
 
 .view_more {
-    background-color: #19beb6;
     color: #fff;
     font-size: 14px;
     text-transform: uppercase;
@@ -977,7 +1031,6 @@ body {
 }
 
 .btn-submit:hover, .btn-submit:focus {
-    background-color: #109B94;
     color: white;
 }
 

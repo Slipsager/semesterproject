@@ -82,12 +82,41 @@
 ?>
 
 
-<div class="content-main contact-content">
+<?php
+$c = $node->field_blog_category["und"][0]["taxonomy_term"]->name;
+$cat = strtolower(strip_tags($c));
+$catClass = "";
+
+switch ($cat) {
+    case "seo":
+        $catClass = "seo";
+        break;
+    case "sociale medier":
+        $catClass = "sociale-medier";
+        break;
+    case "affiliate marketing":
+        $catClass = "affiliate-marketing";
+        break;
+    case "bannerannoncering":
+        $catClass = "bannerannoncering";
+        break;
+    case "email marketing":
+        $catClass = "email-marketing";
+        break;
+    case "google adwords":
+        $catClass = "google-adwords";
+        break;
+}
+
+?>
+<div class="content-main contact-content box-top-<?php print $catClass; ?>">
     <div class="contact-content-upper">
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                <div class="gallery_title">
-                    <h3><a href="<?php print $node_url; ?>"><?php print $title; ?></a></h3>
+                <div class="gallery_title box-left-<?php print $catClass; ?>">
+                    <!-- <h3><a href="<?php print $node_url; ?>"><?php print $title; ?></a></h3> -->
+                    <h3><?php print $title; ?></h3>
+                    <h4 class="box-color-<?php print $catClass; ?>"><?php print $c; ?></h4>
                 </div>
             </div>
         </div>
@@ -123,7 +152,7 @@
                     </div>
 
                     <div class="form-group">
-                        <input id="submit" name="submit" type="submit" value="Send" class="btn view_more btn-submit">
+                        <input id="submit" name="submit" type="submit" value="Send" class="btn view_more box-bg-color-<?php print $catClass; ?> btn-submit">
                     </div>
 
                 </form>

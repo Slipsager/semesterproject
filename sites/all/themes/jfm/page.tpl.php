@@ -107,10 +107,10 @@
                                     <p>Tilmeld dig vores nyhedsbrev for at
                                         modtage <strong>unikke</strong> tips og tricks målrettet <strong>din
                                             virksomhed!</strong></p>
-                                    <br />
+                                    <br/>
                                     <form action="#">
-                                        <input type="email" placeholder="E-mail" class="form-control" /><br />
-                                        <input type="submit" value="Tilmeld" class="btn btn-primary btn-block" />
+                                        <input type="email" placeholder="E-mail" class="form-control"/><br/>
+                                        <input type="submit" value="Tilmeld" class="btn btn-primary btn-block"/>
                                     </form>
 
                                 </div>

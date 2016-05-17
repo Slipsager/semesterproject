@@ -175,8 +175,13 @@ body {
 
 .block-user {
     margin-top: 40px;
+    background-color: rgba(33, 174, 238, 0.5);
     padding: 15px;
-    background-color: rgba(33, 238, 229, 0.4);
+}
+.block-menu {
+    margin-top: 40px;
+    background-color: rgba(33, 174, 238, 0.5);
+    padding: 15px;
 }
 
 .about-main {

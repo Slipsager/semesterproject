@@ -415,6 +415,7 @@ body {
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
     display: block;
     background-color: #fff;
+    margin-bottom: 10px;
 }
 
 .box-seo {
@@ -423,10 +424,20 @@ body {
 .box-sociale-medier {
     border-top: 7px solid rgba(59, 89, 152, 0.8);
 }
-
-.blogFrontpageRow {
-
+.box-affiliate-marketing {
+    border-top: 7px solid rgba(30, 123, 128, 0.8);
 }
+.box-bannerannoncering {
+    border-top: 7px solid rgba(29, 127, 238, 0.8);
+}
+.box-email-marketing {
+    border-top: 7px solid rgba(255, 89, 16, 0.8);
+}
+.box-google-adwords {
+    border-top: 7px solid rgba(15, 158, 89, 0.8);
+}
+
+
 
 .london {
     border-top: 7px solid #19beb6;

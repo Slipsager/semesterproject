@@ -45,6 +45,18 @@ switch ($cat) {
     case "sociale medier":
         $catClass = "box-sociale-medier";
         break;
+    case "affiliate marketing":
+        $catClass = "box-affiliate-marketing";
+        break;
+    case "bannerannoncering":
+        $catClass = "box-bannerannoncering";
+        break;
+    case "email marketing":
+        $catClass = "box-email-marketing";
+        break;
+    case "google adwords":
+        $catClass = "box-google-adwords";
+        break;
 }
 ?>
 

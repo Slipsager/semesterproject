@@ -41,7 +41,7 @@
                         <div class="menu-container">
                             <div
                                 class="block-keep-ratio  block-keep-ratio-1-1  block-width-half  pull-left  about-main">
-                                <a href="sub.html"
+                                <a href="<?php print $front_page; ?>sociale-medier"
                                    class="main-menu-link facebook block-keep-ratio__content flexbox-center">
                                     <i class="fa fa-facebook-official fa-4x main-menu-link-icon"></i>
                                     Sociale medier
@@ -50,7 +50,7 @@
 
                             <div
                                 class="block-keep-ratio  block-keep-ratio-1-1  block-width-half  pull-right  contact-main">
-                                <a href="sub.html"
+                                <a href="<?php print $front_page; ?>google-adwords"
                                    class="main-menu-link google block-keep-ratio__content flexbox-center">
                                     <i class="fa fa-google fa-4x main-menu-link-icon"></i>
                                     Google AdWords
@@ -61,7 +61,7 @@
                         <div class="menu-container">
                             <div
                                 class="block-keep-ratio  block-keep-ratio-1-1  block-width-half  pull-left  about-main">
-                                <a href="sub.html"
+                                <a href="<?php print $front_page; ?>seo"
                                    class="main-menu-link seo block-keep-ratio__content flexbox-center">
                                     <i class="fa fa-search-plus fa-4x main-menu-link-icon"></i>
                                     SEO
@@ -70,7 +70,7 @@
 
                             <div
                                 class="block-keep-ratio  block-keep-ratio-1-1  block-width-half  pull-right  contact-main">
-                                <a href="sub.html"
+                                <a href="<?php print $front_page; ?>email-marketing"
                                    class="main-menu-link email-marketing block-keep-ratio__content flexbox-center">
                                     <i class="fa fa-envelope-o fa-4x main-menu-link-icon"></i>
                                     E-mail marketing
@@ -80,7 +80,7 @@
                         <div class="menu-container">
                             <div
                                 class="block-keep-ratio  block-keep-ratio-1-1  block-width-half  pull-left  about-main">
-                                <a href="sub.html"
+                                <a href="<?php print $front_page; ?>affiliate-marketing"
                                    class="main-menu-link affiliate block-keep-ratio__content flexbox-center">
                                     <i class="fa fa-line-chart fa-4x main-menu-link-icon"></i>
                                     Affiliate marketing
@@ -89,7 +89,7 @@
 
                             <div
                                 class="block-keep-ratio  block-keep-ratio-1-1  block-width-half  pull-right  contact-main">
-                                <a href="sub.html"
+                                <a href="<?php print $front_page; ?>bannerannoncering"
                                    class="main-menu-link bannerannoncering block-keep-ratio__content flexbox-center">
                                     <i class="fa fa-map-signs fa-4x main-menu-link-icon"></i>
                                     Bannerannoncering

@@ -40,34 +40,34 @@ $catClass = "";
 
 switch ($cat) {
     case "seo":
-        $catClass = "box-seo";
+        $catClass = "seo";
         break;
     case "sociale medier":
-        $catClass = "box-sociale-medier";
+        $catClass = "sociale-medier";
         break;
     case "affiliate marketing":
-        $catClass = "box-affiliate-marketing";
+        $catClass = "affiliate-marketing";
         break;
     case "bannerannoncering":
-        $catClass = "box-bannerannoncering";
+        $catClass = "bannerannoncering";
         break;
     case "email marketing":
-        $catClass = "box-email-marketing";
+        $catClass = "email-marketing";
         break;
     case "google adwords":
-        $catClass = "box-google-adwords";
+        $catClass = "google-adwords";
         break;
 }
 ?>
 
 
 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-    <div class="box <?php print $catClass; ?>">
+    <div class="box box-<?php print $catClass; ?>">
         <div class="box-icon">
             <?php print $fields['field_blog_image']->content; ?>
         </div>
         <div class="info float-container">
-            <div class="col-sm-12 london-title paris-title">
+            <div class="col-sm-12 box-left-<?php print $catClass; ?> box-title">
                 <h3 class="text-uppercase"><?php print $fields['title']->content; ?></h3>
                 <h4 class="text-uppercase"><?php print $fields['field_blog_category']->content; ?></h4>
             </div>

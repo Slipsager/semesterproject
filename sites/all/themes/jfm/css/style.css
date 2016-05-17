@@ -437,15 +437,42 @@ body {
     border-top: 7px solid rgba(15, 158, 89, 0.8);
 }
 
-
-
-.london {
-    border-top: 7px solid #19beb6;
+.box-left-seo {
+    border-left: 4px solid rgba(160, 19, 238, 0.8);
+}
+.box-left-sociale-medier {
+    border-left: 4px solid rgba(59, 89, 152, 0.8);
+}
+.box-left-affiliate-marketing {
+    border-left: 4px solid rgba(30, 123, 128, 0.8);
+}
+.box-left-bannerannoncering {
+    border-left: 4px solid rgba(29, 127, 238, 0.8);
+}
+.box-left-email-marketing {
+    border-left: 4px solid rgba(255, 89, 16, 0.8);
+}
+.box-left-google-adwords {
+    border-left: 4px solid rgba(15, 158, 89, 0.8);
 }
 
-.paris {
-    border-top: 7px solid #df9801;
+.box-title {
+    padding: 0 0 0 5px;
+    margin: 25px 0px;
 }
+
+.box-title h3 {
+    color: #000;
+    font-size: 18px;
+    margin: 5px;
+}
+
+.box-title h4 {
+    font-size: 14px;
+    margin: 5px;
+}
+
+
 
 .box-icon {
     width: 100%;

@@ -109,7 +109,7 @@
                                             virksomhed!</strong></p>
                                     <br/>
                                     <form action="#">
-                                        <input type="email" placeholder="E-mail" class="form-control"/><br/>
+                                        <input type="email" placeholder="E-mail" tabindex="1" class="form-control"/><br/>
                                         <input type="submit" value="Tilmeld" class="btn btn-primary btn-block"/>
                                     </form>
 

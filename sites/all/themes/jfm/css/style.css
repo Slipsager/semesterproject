@@ -159,7 +159,7 @@ body {
 }
 
 .main-menu-link:hover {
-    color: #66FFFF;
+    color: rgba(0,0,0,.7);
 }
 
 .main-menu-link:focus {

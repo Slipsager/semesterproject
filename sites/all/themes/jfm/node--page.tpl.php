@@ -137,9 +137,12 @@
     </div>
 </div>
 <hr />
+<div class="col-xs-12">
 <h2>Teamet bag</h2>
 <p>Du er altid velkommen til at fange os via e-mail eller telefon ved yderligere spørgsmål om Marketips.dk</p>
-<br /><br />
+    <br /><br />
+</div>
+
 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
     <div class="box topper">
         <div class="box-icon">

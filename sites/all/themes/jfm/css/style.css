@@ -166,9 +166,7 @@ body {
     color: #fff;
 }
 
-.first {
-    background-color: transparent;
-}
+
 
 .home {
 
@@ -404,10 +402,6 @@ body {
     background-color: #363636;
     -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease;
-}
-
-.desc button:hover, .desc button:focus {
-    background-color: #777;
 }
 
 .desc2 button {
@@ -1421,4 +1415,8 @@ textarea.form-control {
     .gallery_title h4 {
         font-size: 18px;
     }
+}
+
+.first {
+    background-color: transparent;
 }

@@ -137,21 +137,17 @@
                                 <div class="banner-main-home">
                                     <div class="banner-main-home-text">
                                         <div class="heading">
-                                            <h1>Helt blank?</h1>
-                                            <p class="text-uppercase">Vi sørger for at du bliver set</p>
+                                            <h1 style="color: white; font-size: 40px;">Instagram Webinar</h1>
+                                            <p class="text-uppercase" style="color: white; fint-size: 20px;">16. august 2016</p>
                                         </div>
-                                        <div class="desc">
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vulputate
-                                            velit a
-                                            velit consectetur luctus. Etiam in malesuada turpis. Praesent at accumsan
-                                            elit.
-                                            Duis viverra neque eu odio lacinia semper. Sed id lectus lectus. Vivamus
-                                            hendrerit vehicula ipsum in tincidunt.
+                                        <div class="desc" style="color: rgba(255,255,255,0.9);">
+                                            <p>
+                                                Mange er allerede begyndt at bruge Instagram personligt, men er mediet også interessant for din virksomhed? Det undersøger vi på dette webinar, hvor du også får tips til gode apps og eksempler på, hvordan du kan bruge Instagram i virksomhedens markedsføring og kommunikation.
                                             </p>
-                                            <button type="button" class="">LÆS MERE OM HVEM VI ER</button>
+                                            <button type="button" class="btn-block">TILMELD DIG NU</button>
                                         </div>
                                     </div>
-                                    <img src="<?php print $front_page; ?>sites/all/themes/jfm/images/dev.png" alt="Image" class="img-responsive">
+                                    <img src="http://tese.dk/ig.png" alt="Image" class="img-responsive" style="max-width: 300px;">
                                 </div>
                             </div>
                         </div>

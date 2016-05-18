@@ -80,7 +80,6 @@
  * @ingroup themeable
  */
 ?>
-
 <style>
     .row::after {
         clear: both;
@@ -89,49 +88,62 @@
         width: auto;
         padding-left: 20px;
         margin-bottom: 40px;
-        border-left:  4px solid rgba(193, 61, 18, 0.8);
+        border-left:  4px solid rgba(107, 181, 34, 0.8);
     }
     .first {
         background-color: transparent;
     }
     .topper {
-        border-top: 7px solid rgba(193, 61, 18, 0.8);
+        border-top: 7px solid rgba(107, 181, 34, 0.8);
     }
 </style>
-
 <div class="content-main contact-content">
     <div class="contact-content-upper topper">
-        <?php echo "<pre>"; var_dump($node->title); echo "</pre>"; ?>
+        <h1 class="vigan"><?php print $node->title; ?></h1>
+        <div id="node-<?php print $node->nid; ?>">
 
-    <h1 class="vigan"><?php print $node->title; ?></h1>
-    <div id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> clearfix"<?php print $attributes; ?>>
-        <?php print $user_picture; ?>
+            <div class="row">
+                <div class="col-md-6">
+                    <?php print $user_picture; ?>
 
-        <?php print render($title_prefix); ?>
-        <?php if (!$page): ?>
-            <h2<?php print $title_attributes; ?>><a href="<?php print $node_url; ?>"><?php print $title; ?></a></h2>
-        <?php endif; ?>
-        <?php print render($title_suffix); ?>
-
-        <?php if ($display_submitted): ?>
-            <div class="submitted">
-                <?php print $submitted; ?>
+                    <?php print render($title_prefix); ?>
+                    <?php if (!$page): ?>
+                        <h2<?php print $title_attributes; ?>><a
+                                href="<?php print $node_url; ?>"><?php print $title; ?></a></h2>
+                    <?php endif; ?>
+                    <?php print render($title_suffix); ?>
+                </div>
+                <div class="col-md-6">
+                    <?php if ($display_submitted): ?>
+                        <div class="submitted">
+                            <?php print $submitted; ?>
+                        </div>
+                    <?php endif; ?>
+                </div>
             </div>
-        <?php endif; ?>
+            <hr />
+            <div class="row">
+                <div class="col-md-12">
+                    <?php
+                    // We hide the comments and links now so that we can render them later.
+                    hide($content['comments']);
+                    hide($content['links']);
+                    print render($content);
+                    ?>
+                </div>
+            </div>
 
-        <div class="content"<?php print $content_attributes; ?>>
-            <?php
-            // We hide the comments and links now so that we can render them later.
-            hide($content['comments']);
-            hide($content['links']);
-            print render($content);
-            ?>
+
+            <?php print render($content['links']); ?>
         </div>
-
-        <?php print render($content['links']); ?>
+    </div>
+</div>
+<br/>
+<br/>
+<br/>
+<div class="content-main contact-content">
+    <div class="contact-content-upper">
 
         <?php print render($content['comments']); ?>
-
-    </div>
     </div>
 </div>

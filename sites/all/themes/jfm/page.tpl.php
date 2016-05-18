@@ -32,7 +32,7 @@
 
                             <div
                                 class="block-keep-ratio  block-keep-ratio-1-1  block-width-half  pull-right  contact-main">
-                                <a href="#"
+                                <a href="<?php print $front_page; ?>kom-godt-i-gang/introduktion"
                                    class="main-menu-link contact block-keep-ratio__content flexbox-center">
                                     <i class="fa fa-star fa-4x main-menu-link-icon"></i>
                                     KOM GODT I GANG

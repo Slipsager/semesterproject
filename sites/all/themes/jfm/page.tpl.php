@@ -155,8 +155,10 @@
                                     <img src="http://tese.dk/ig.png" alt="Image" class="img-responsive"
                                          style="max-width: 300px;">
                                 </div>
+                                <br /><br />
                             </div>
                         </div>
+
 
                         <?php print render($page['blog_content_frontpage']); ?>
                     <?php endif; ?>

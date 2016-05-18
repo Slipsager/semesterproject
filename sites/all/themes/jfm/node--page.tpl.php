@@ -101,8 +101,6 @@
 
 <div class="content-main contact-content">
     <div class="contact-content-upper topper">
-        <?php echo "<pre>"; var_dump($node->title); echo "</pre>"; ?>
-
     <h1 class="vigan"><?php print $node->title; ?></h1>
     <div id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> clearfix"<?php print $attributes; ?>>
         <?php print $user_picture; ?>

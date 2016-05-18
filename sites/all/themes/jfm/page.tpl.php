@@ -137,7 +137,7 @@
                                 <div class="banner-main-home">
                                     <div class="banner-main-home-text">
                                         <div class="heading">
-                                            <h1>Marketips</h1>
+                                            <h1>Helt blank?</h1>
                                             <p class="text-uppercase">Vi sørger for at du bliver set</p>
                                         </div>
                                         <div class="desc">
@@ -151,7 +151,7 @@
                                             <button type="button" class="">LÆS MERE OM HVEM VI ER</button>
                                         </div>
                                     </div>
-                                    <img src="images/home-img-1.png" alt="Image" class="img-responsive">
+                                    <img src="<?php print $front_page; ?>sites/all/themes/jfm/images/dev.png" alt="Image" class="img-responsive">
                                 </div>
                             </div>
                         </div>

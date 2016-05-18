@@ -20,17 +20,17 @@
     .vigan {
         width: auto;
         padding-left: 20px;
-        border-left: 4px solid rgba(15, 158, 89, 0.8);
+        border-left: 4px solid rgba(255, 89, 16, 0.8);
     }
 
     .topper {
-        border-top: 7px solid rgba(15, 158, 89, 0.8);
+        border-top: 7px solid rgba(255, 89, 16, 0.8);
     }
 </style>
 
 <div class="contact-content">
     <div class="contact-content-upper topper">
-        <h1 class="vigan">Google AdWords</h1>
+        <h1 class="vigan">E-mail Marketing</h1>
     </div>
 </div>
 

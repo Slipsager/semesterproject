@@ -97,6 +97,9 @@
     .topper {
         border-top: 7px solid rgba(193, 61, 18, 0.8);
     }
+    .left {
+        border-left: 4px solid rgba(193, 61, 18, 0.8);
+    }
 </style>
 
 <div class="content-main contact-content">
@@ -131,5 +134,69 @@
         <?php print render($content['comments']); ?>
 
     </div>
+    </div>
+</div>
+<hr />
+<h2>Teamet bag</h2>
+<p>Du er altid velkommen til at fange os via e-mail eller telefon ved yderligere spørgsmål om Marketips.dk</p>
+<br /><br />
+<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+    <div class="box topper">
+        <div class="box-icon">
+            <img src="<?php print $front_page; ?>sites/all/themes/jfm/images/team/vigan.png" width="400" height="300"/>
+        </div>
+        <div class="info float-container">
+            <div class="col-sm-12 box-title left">
+                <h3 class="text-uppercase">Vigan Shemsiu</h3>
+                <h4 class="text-uppercase">Administrator</h4>
+            </div>
+            <p>vs@marketips.dk</p>
+            <p>+45 40 40 40 40</p>
+        </div>
+    </div>
+</div>
+<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+    <div class="box topper">
+        <div class="box-icon">
+            <img src="<?php print $front_page; ?>sites/all/themes/jfm/images/team/morten.jpg" width="400" height="300"/>
+        </div>
+        <div class="info float-container">
+            <div class="col-sm-12 box-title left">
+                <h3 class="text-uppercase">Morten Lund</h3>
+                <h4 class="text-uppercase">Administrator</h4>
+            </div>
+            <p>ml@marketips.dk</p>
+            <p>+45 41 41 41 41</p>
+        </div>
+    </div>
+</div>
+<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+    <div class="box topper">
+        <div class="box-icon">
+            <img src="<?php print $front_page; ?>sites/all/themes/jfm/images/team/novik.jpg" width="400" height="300"/>
+        </div>
+        <div class="info float-container">
+            <div class="col-sm-12 box-title left">
+                <h3 class="text-uppercase">Novik Singh</h3>
+                <h4 class="text-uppercase">Administrator</h4>
+            </div>
+            <p>ns@shemsiu.dk</p>
+            <p>+45 42 42 42 42</p>
+        </div>
+    </div>
+</div>
+<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+    <div class="box topper">
+        <div class="box-icon">
+            <img src="<?php print $front_page; ?>sites/all/themes/jfm/images/team/thor.jpg" width="400" height="300"/>
+        </div>
+        <div class="info float-container">
+            <div class="col-sm-12 box-title left">
+                <h3 class="text-uppercase">Thor Döör</h3>
+                <h4 class="text-uppercase">Administrator</h4>
+            </div>
+            <p>td@shemsiu.dk</p>
+            <p>+45 43 43 43 43</p>
+        </div>
     </div>
 </div>

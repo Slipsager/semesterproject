@@ -114,7 +114,8 @@
                                             virksomhed!</strong></p>
                                     <br/>
                                     <form action="#">
-                                        <input type="email" placeholder="E-mail" tabindex="1" class="form-control"/><br/>
+                                        <input type="email" placeholder="E-mail" tabindex="1"
+                                               class="form-control"/><br/>
                                         <input type="submit" value="Tilmeld" class="btn btn-primary btn-block"/>
                                     </form>
 
@@ -138,16 +139,21 @@
                                     <div class="banner-main-home-text">
                                         <div class="heading">
                                             <h1 style="color: white; font-size: 40px;">Instagram Webinar</h1>
-                                            <p class="text-uppercase" style="color: white; fint-size: 20px;">16. august 2016</p>
+                                            <p class="text-uppercase" style="color: white; fint-size: 20px;">16. august
+                                                2016</p>
                                         </div>
                                         <div class="desc" style="color: rgba(255,255,255,0.9);">
                                             <p>
-                                                Mange er allerede begyndt at bruge Instagram personligt, men er mediet også interessant for din virksomhed? Det undersøger vi på dette webinar, hvor du også får tips til gode apps og eksempler på, hvordan du kan bruge Instagram i virksomhedens markedsføring og kommunikation.
+                                                Mange er allerede begyndt at bruge Instagram personligt, men er mediet
+                                                også interessant for din virksomhed? Det undersøger vi på dette webinar,
+                                                hvor du også får tips til gode apps og eksempler på, hvordan du kan
+                                                bruge Instagram i virksomhedens markedsføring og kommunikation.
                                             </p>
                                             <button type="button" class="btn-block">TILMELD DIG NU</button>
                                         </div>
                                     </div>
-                                    <img src="http://tese.dk/ig.png" alt="Image" class="img-responsive" style="max-width: 300px;">
+                                    <img src="http://tese.dk/ig.png" alt="Image" class="img-responsive"
+                                         style="max-width: 300px;">
                                 </div>
                             </div>
                         </div>

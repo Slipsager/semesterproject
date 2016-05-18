@@ -134,7 +134,7 @@
             </div>
 
 
-            <?php print render($content['links']); ?>
+
         </div>
     </div>
 </div>
@@ -143,7 +143,7 @@
 <br/>
 <div class="content-main contact-content">
     <div class="contact-content-upper">
-
+        <?php print render($content['links']); ?><br /><br />
         <?php print render($content['comments']); ?>
     </div>
 </div>

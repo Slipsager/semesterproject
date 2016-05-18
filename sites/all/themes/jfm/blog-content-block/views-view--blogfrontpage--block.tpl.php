@@ -26,7 +26,7 @@
  *
  * @ingroup views_templates
  */
-?>
+?><br />
     <div class="row margin-b-30">
 
 

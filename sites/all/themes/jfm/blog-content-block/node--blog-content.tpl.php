@@ -109,6 +109,7 @@ switch ($cat) {
 }
 
 ?>
+
 <div class="content-main contact-content box-top-<?php print $catClass; ?>">
     <div class="contact-content-upper">
         <div class="row">

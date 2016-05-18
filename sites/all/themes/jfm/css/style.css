@@ -64,7 +64,7 @@ body {
 .main-navigation {
     padding: 0px 0px;
     width: 310px;
-    position: absolute;
+    position: static; /* Det var absolute før */
     top: 0;
     left: 0;
 }

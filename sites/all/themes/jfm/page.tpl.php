@@ -1,3 +1,8 @@
+<style>
+    .row::after {
+        clear: none;
+    }
+</style>
 <div class="main-body">
     <div class="container">
         <div class="row">
@@ -18,7 +23,7 @@
                         <div class="menu-container">
                             <div
                                 class="block-keep-ratio  block-keep-ratio-1-1  block-width-half  pull-left  about-main">
-                                <a href="#"
+                                <a href="<?php print $front_page; ?>om-marketips"
                                    class="main-menu-link about block-keep-ratio__content flexbox-center">
                                     <i class="fa fa-user fa-4x main-menu-link-icon"></i>
                                     OM MARKETIPS

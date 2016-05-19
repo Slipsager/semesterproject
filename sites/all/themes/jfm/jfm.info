@@ -4,6 +4,7 @@ core = 7.x
 engine = phptemplate
 
 regions[header] = Header
+regions[search] = Sidebar Top Search
 regions[blog_content_frontpage] = Frontpage Blog Content
 regions[sidebar_first] = Sidebar First - Left
 regions[content] = Content

@@ -122,6 +122,8 @@
                                 </div>
                             </div>
 
+                            <?php print render($page['search']); ?>
+
                             <div class="menu-container">
                                 <?php print render($page['sidebar_first']); ?>
                             </div>

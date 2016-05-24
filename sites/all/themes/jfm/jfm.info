@@ -11,11 +11,8 @@ regions[content] = Content
 regions[testimonials] = Testimonial
 regions[footer] = Footer
 
-stylesheets[all][] = css/bootstrap.min.css
-stylesheets[all][] = css/magnific-popup.css
 stylesheets[all][] = font-awesome/css/font-awesome.min.css
 stylesheets[all][] = css/style.css
-stylesheets[print][] = css/print.css
 
 scripts[] = js/bootstrap.min.js
 scripts[] = js/imagesloaded.3.1.8.min.js

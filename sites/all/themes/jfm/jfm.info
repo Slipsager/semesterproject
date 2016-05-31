@@ -15,7 +15,3 @@ stylesheets[all][] = font-awesome/css/font-awesome.min.css
 stylesheets[all][] = css/style.css
 
 scripts[] = js/bootstrap.min.js
-scripts[] = js/imagesloaded.3.1.8.min.js
-scripts[] = js/jquery.magnific-popup.min.js
-scripts[] = js/jquery.masonry.3.2.1.min.js
-scripts[] = js/jquery-1.11.3.min.js

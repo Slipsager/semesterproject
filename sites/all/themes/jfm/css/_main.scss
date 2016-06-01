@@ -1134,6 +1134,70 @@ textarea.form-control {
   max-width: 410px;
 }
 
+#sidebar-menu {
+  .toggle {
+    text-decoration: none;
+    font-size: 2em;
+    color: rgba(0, 0, 0, 0.61);
+    -webkit-transition: all 1.15s ease-out 0;
+    -moz-transition: all 1.15s ease-out 0;
+    transition: all 1.45s ease-out 0;
+    position: fixed;
+    top: 50px;
+    right: 20px;
+    z-index: 1000;
+    cursor: pointer;
+  }
+
+  .sidebar {
+    position: fixed;
+    top: 100px;
+    right: -190px;
+    -webkit-transition: all 1.15s ease-out 0;
+    -moz-transition: all 1.15s ease-out 0;
+    transition: all 1.15s ease-out 0;
+    width: 5rem;
+    margin-right: 1rem;
+    padding: 1.5em;
+    background: rgba(255, 255, 255, 0.4);
+    z-index: 1000;
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    li a {
+      color: #000;
+      font-family: 'Poiret One', cursive;
+      font-size: 1.2em;
+      margin: 0;
+      margin-bottom: 16px;
+      cursor: pointer;
+      text-decoration: none;
+      line-height: 200%;
+    }
+
+  }
+
+  .sidebar a:hover {
+    color: rgba(0, 0, 0, 0.61);
+  }
+
+  #slide:checked + .container .sidebar {
+    right: 0px;
+  }
+
+  #slide {
+    display: none;
+  }
+  @media screen and (max-width: 500px) {
+    .sidebar {
+      background: rgba(255, 255, 255, 1);
+      margin: 0;
+    }
+  }
+}
+
 @media screen and (max-width: 1199px) and (min-width: 992px) {
 
   .banner-main-home {

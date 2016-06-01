@@ -2,85 +2,24 @@
     .row::after {
         clear: none;
     }
-
-    .toggle {
-        text-decoration: none;
-        font-size: 2em;
-        color: rgba(0, 0, 0, 0.61);
-        -webkit-transition: all 1.15s ease-out 0;
-        -moz-transition: all 1.15s ease-out 0;
-        transition: all 1.45s ease-out 0;
-        position: fixed;
-        top: 50px;
-        right: 20px;
-        z-index: 1000;
-        cursor: pointer;
-    }
-
-    .sidebar {
-        position: fixed;
-        top: 100px;
-        right: -190px;
-        -webkit-transition: all 1.15s ease-out 0;
-        -moz-transition: all 1.15s ease-out 0;
-        transition: all 1.15s ease-out 0;
-        width: 5rem;
-        margin-right: 1rem;
-        padding: 1.5em;
-        background: rgba(255,255,255,0.4);
-        z-index: 1000;
-    }
-
-    .sidebar ul {
-        list-style: none;
-        margin: 0;
-        padding: 0;
-    }
-
-    .sidebar li a {
-        color: #000;
-        font-family: 'Poiret One', cursive;
-        font-size: 1.2em;
-        margin: 0;
-        margin-bottom: 16px;
-        cursor: pointer;
-        text-decoration: none;
-        line-height: 200%;
-    }
-
-    .sidebar a:hover {
-        color: rgba(0, 0, 0, 0.61);
-    }
-
-    #slide:checked + .container .sidebar {
-        right: 0px;
-    }
-
-    #slide {
-        display: none;
-    }
-    @media screen and (max-width: 500px) {
-        .sidebar {
-            background: rgba(255, 255, 255, 1);
-            margin: 0;
-        }
-    }
 </style>
 
 <div class="main-body">
-    <input type="checkbox" id="slide" name="" value=""/>
-    <div class="container">
-        <label for="slide" class="toggle">☰</label>
-        <nav class="sidebar">
-            <ul>
-                <li class="fa fa-facebook-official fa-2x"><a href="#">   </a></li>
-                <li class="fa fa-google fa-2x"><a href="#">   </a></li>
-                <li class="fa fa-search-plus fa-2x"><a href="#">   </a></li>
-                <li class="fa fa-envelope-o fa-2x"><a href="#">   </a></li>
-                <li class="fa fa-line-chart fa-2x"><a href="#">   </a></li>
-                <li class="fa fa-map-signs fa-2x"><a href="#">   </a></li>
-            </ul>
-        </nav>
+    <div id="sidebar-menu">
+        <input type="checkbox" id="slide" name="" value=""/>
+        <div class="container">
+            <label for="slide" class="toggle">☰</label>
+            <nav class="sidebar">
+                <ul>
+                    <li class="fa fa-facebook-official fa-2x"><a href="#">   </a></li>
+                    <li class="fa fa-google fa-2x"><a href="#">   </a></li>
+                    <li class="fa fa-search-plus fa-2x"><a href="#">   </a></li>
+                    <li class="fa fa-envelope-o fa-2x"><a href="#">   </a></li>
+                    <li class="fa fa-line-chart fa-2x"><a href="#">   </a></li>
+                    <li class="fa fa-map-signs fa-2x"><a href="#">   </a></li>
+                </ul>
+            </nav>
+        </div>
     </div>
 
     <div class="container">

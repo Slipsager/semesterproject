@@ -13,7 +13,6 @@ a:hover {
   margin-bottom: 30px;
 }
 
-
 .margin-t-30 {
   margin-top: 30px;
 }
@@ -160,14 +159,12 @@ body {
 }
 
 .main-menu-link:hover {
-  color: rgba(0,0,0,.7);
+  color: rgba(0, 0, 0, .7);
 }
 
 .main-menu-link:focus {
   color: #fff;
 }
-
-
 
 .home {
 
@@ -181,6 +178,7 @@ body {
   background-color: rgba(33, 174, 238, 0.5);
   padding: 15px;
 }
+
 .block-menu {
   margin-top: 40px;
   background-color: rgba(33, 174, 238, 0.5);
@@ -218,6 +216,7 @@ body {
 .bannerannoncering {
   background-color: rgba(29, 127, 238, 0.8);
 }
+
 .newsletter {
   background-color: rgba(33, 174, 238, 0.5);
   padding: 15px;
@@ -433,18 +432,23 @@ body {
 .box-seo {
   border-top: 7px solid rgba(160, 19, 238, 0.8);
 }
+
 .box-sociale-medier {
   border-top: 7px solid rgba(59, 89, 152, 0.8);
 }
+
 .box-affiliate-marketing {
   border-top: 7px solid rgba(30, 123, 128, 0.8);
 }
+
 .box-bannerannoncering {
   border-top: 7px solid rgba(29, 127, 238, 0.8);
 }
+
 .box-email-marketing {
   border-top: 7px solid rgba(255, 89, 16, 0.8);
 }
+
 .box-google-adwords {
   border-top: 7px solid rgba(15, 158, 89, 0.8);
 }
@@ -452,18 +456,23 @@ body {
 .box-left-seo {
   border-left: 4px solid rgba(160, 19, 238, 0.8);
 }
+
 .box-left-sociale-medier {
   border-left: 4px solid rgba(59, 89, 152, 0.8);
 }
+
 .box-left-affiliate-marketing {
   border-left: 4px solid rgba(30, 123, 128, 0.8);
 }
+
 .box-left-bannerannoncering {
   border-left: 4px solid rgba(29, 127, 238, 0.8);
 }
+
 .box-left-email-marketing {
   border-left: 4px solid rgba(255, 89, 16, 0.8);
 }
+
 .box-left-google-adwords {
   border-left: 4px solid rgba(15, 158, 89, 0.8);
 }
@@ -483,8 +492,6 @@ body {
   font-size: 14px;
   margin: 5px;
 }
-
-
 
 .box-icon {
   width: 100%;
@@ -603,6 +610,7 @@ body {
   border-left: 2px solid #75bd29;
   margin: 25px 0px;
 }
+
 .bottom-title h3 {
   color: #75bd29;
   font-size: 20px;
@@ -833,22 +841,26 @@ body {
 .box-top-seo {
   border-top: 5px solid rgba(160, 19, 238, 0.8);
 }
+
 .box-top-sociale-medier {
   border-top: 5px solid rgba(59, 89, 152, 0.8);
 }
+
 .box-top-affiliate-marketing {
   border-top: 5px solid rgba(30, 123, 128, 0.8);
 }
+
 .box-top-bannerannoncering {
   border-top: 5px solid rgba(29, 127, 238, 0.8);
 }
+
 .box-top-email-marketing {
   border-top: 5px solid rgba(255, 89, 16, 0.8);
 }
+
 .box-top-google-adwords {
   border-top: 5px solid rgba(15, 158, 89, 0.8);
 }
-
 
 .gallery_main {
   padding: 30px 20px 30px 30px;
@@ -888,18 +900,23 @@ body {
 .box-color-seo {
   color: rgba(160, 19, 238, 0.8);
 }
+
 .box-color-sociale-medier {
   color: rgba(59, 89, 152, 0.8);
 }
+
 .box-color-affiliate-marketing {
   color: rgba(30, 123, 128, 0.8);
 }
+
 .box-color-bannerannoncering {
   color: rgba(29, 127, 238, 0.8);
 }
+
 .box-color-email-marketing {
   color: rgba(255, 89, 16, 0.8);
 }
+
 .box-color-google-adwords {
   color: rgba(15, 158, 89, 0.8);
 }
@@ -907,18 +924,23 @@ body {
 .box-bg-color-seo {
   background-color: rgba(160, 19, 238, 0.8);
 }
+
 .box-bg-color-sociale-medier {
   background-color: rgba(59, 89, 152, 0.8);
 }
+
 .box-bg-color-affiliate-marketing {
   background-color: rgba(30, 123, 128, 0.8);
 }
+
 .box-bg-color-bannerannoncering {
   background-color: rgba(29, 127, 238, 0.8);
 }
+
 .box-bg-color-email-marketing {
   background-color: rgba(255, 89, 16, 0.8);
 }
+
 .box-bg-color-google-adwords {
   background-color: rgba(15, 158, 89, 0.8);
 }
@@ -1098,7 +1120,8 @@ textarea.form-control {
   padding: 6px;
   display: inline-block;
   vertical-align: top;
-  margin-bottom: 12px; /* Safari/Chrome, other WebKit */ /* Firefox, other Gecko */
+  margin-bottom: 12px; /* Safari/Chrome, other WebKit */
+  /* Firefox, other Gecko */
   box-sizing: border-box;
   box-shadow: none; /* Opera/IE 8+ */
 }
